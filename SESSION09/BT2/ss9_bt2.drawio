@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="PEGQsls9w4TMvSvm47bf">
+    <mxGraphModel dx="1521" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1000" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="locker" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;size=20;html=1;whiteSpace=wrap;align=center;verticalAlign=top;" value="LockerTerminal" vertex="1">
+          <mxGeometry height="820" width="140" x="380" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="service" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;size=20;html=1;whiteSpace=wrap;align=center;verticalAlign=top;" value="PackageService" vertex="1">
+          <mxGeometry height="820" width="140" x="680" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="alt" parent="1" style="shape=umlFrame;dashed=1;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingTop=4;spacingLeft=8;" value="alt" vertex="1">
+          <mxGeometry height="500" width="720" x="250" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cond1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontStyle=2;" value="[OTP đúng]" vertex="1">
+          <mxGeometry height="30" width="180" x="275" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="cond2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontStyle=2;" value="else [OTP sai]" vertex="1">
+          <mxGeometry height="30" width="180" x="275" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="divider" edge="1" parent="1" style="edgeStyle=none;dashed=1;html=1;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="570" as="sourcePoint" />
+            <mxPoint x="970" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" target="locker" value="Nhập mã OTP">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="149.3888888888889" y="450" as="sourcePoint" />
+            <mxPoint x="450" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg2" edge="1" parent="1" source="locker" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" target="service" value="verify_otp()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="240" as="sourcePoint" />
+            <mxPoint x="750" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ret1" edge="1" parent="1" source="service" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;html=1;endArrow=open;strokeWidth=1;" target="locker" value="Kết quả hợp lệ">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notify1" edge="1" parent="1" source="locker" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" value="Mở tủ thành công">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="480" as="sourcePoint" />
+            <mxPoint x="149.3888888888889" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ret2" edge="1" parent="1" source="service" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;html=1;endArrow=open;strokeWidth=1;" target="locker" value="Kết quả không hợp lệ">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="670" as="sourcePoint" />
+            <mxPoint x="450" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notify2" edge="1" parent="1" source="locker" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeWidth=1;" value="Mã OTP không đúng, vui lòng thử lại">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="740" as="sourcePoint" />
+            <mxPoint x="149.3888888888889" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCO9pqnWkvR8GI2OVVAo-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=40;" value="" vertex="1">
+          <mxGeometry height="820" width="20" x="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CCO9pqnWkvR8GI2OVVAo-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Khách nhận hàng" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CCO9pqnWkvR8GI2OVVAo-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Khách nhận hàng" vertex="1">
+          <mxGeometry height="60" width="30" x="195" y="850" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
