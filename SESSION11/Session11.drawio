@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Trang-1" id="Phm9p9XWdPEHNdFFzaLJ">
+    <mxGraphModel dx="1030" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YYn9m9uaT4DasIUACgMV-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Khách hàng" vertex="1">
+          <mxGeometry height="80" width="40" x="80" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YYn9m9uaT4DasIUACgMV-2" parent="1" style="swimlane;" value="Đặt phòng khách sạn Rikkei Stay" vertex="1">
+          <mxGeometry height="440" width="480" x="210" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YYn9m9uaT4DasIUACgMV-6" parent="YYn9m9uaT4DasIUACgMV-2" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Tra cứu phòng trống" vertex="1">
+          <mxGeometry height="80" width="120" x="110" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YYn9m9uaT4DasIUACgMV-5" parent="YYn9m9uaT4DasIUACgMV-2" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Hủy phòng" vertex="1">
+          <mxGeometry height="80" width="120" x="110" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="YYn9m9uaT4DasIUACgMV-4" parent="YYn9m9uaT4DasIUACgMV-2" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Đặt phòng" vertex="1">
+          <mxGeometry height="80" width="120" x="110" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="YYn9m9uaT4DasIUACgMV-7" edge="1" parent="1" source="YYn9m9uaT4DasIUACgMV-1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YYn9m9uaT4DasIUACgMV-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YYn9m9uaT4DasIUACgMV-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YYn9m9uaT4DasIUACgMV-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="240" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YYn9m9uaT4DasIUACgMV-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YYn9m9uaT4DasIUACgMV-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Lcig7Bab0AvfYvTZd8zP" name="Trang-2">
+    <mxGraphModel dx="1030" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" value="Hệ thống đặt phòng khách sạn Rikkei Stay" vertex="1">
+          <mxGeometry height="480" width="660" x="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-2" parent="TWTG1duaGuvcpLXdfRBY-1" style="swimlane;startSize=20;html=1;" value="Khách hàng" vertex="1">
+          <mxGeometry height="460" width="320" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-14" edge="1" parent="TWTG1duaGuvcpLXdfRBY-2" source="TWTG1duaGuvcpLXdfRBY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TWTG1duaGuvcpLXdfRBY-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-5" parent="TWTG1duaGuvcpLXdfRBY-2" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="170" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-6" parent="TWTG1duaGuvcpLXdfRBY-2" style="rounded=1;whiteSpace=wrap;html=1;" value="Chọn phòng và khoảng ngày" vertex="1">
+          <mxGeometry height="60" width="120" x="125" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-26" edge="1" parent="TWTG1duaGuvcpLXdfRBY-2" source="TWTG1duaGuvcpLXdfRBY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TWTG1duaGuvcpLXdfRBY-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-10" parent="TWTG1duaGuvcpLXdfRBY-2" style="rounded=1;whiteSpace=wrap;html=1;" value="Nhận thông báo: &quot;Trùng ngày đặt phòng&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-27" edge="1" parent="TWTG1duaGuvcpLXdfRBY-2" source="TWTG1duaGuvcpLXdfRBY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TWTG1duaGuvcpLXdfRBY-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-13" parent="TWTG1duaGuvcpLXdfRBY-2" style="rounded=1;whiteSpace=wrap;html=1;" value="Nhận thông báo: &quot;Đặt phòng thành công&quot;, kèm thông tin phiếu đặt" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-25" parent="TWTG1duaGuvcpLXdfRBY-2" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="40" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-24" parent="TWTG1duaGuvcpLXdfRBY-2" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="40" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-3" parent="TWTG1duaGuvcpLXdfRBY-1" style="swimlane;startSize=20;html=1;" value="Hệ thống" vertex="1">
+          <mxGeometry height="460" width="340" x="320" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-16" edge="1" parent="TWTG1duaGuvcpLXdfRBY-3" source="TWTG1duaGuvcpLXdfRBY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TWTG1duaGuvcpLXdfRBY-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-7" parent="TWTG1duaGuvcpLXdfRBY-3" style="rounded=1;whiteSpace=wrap;html=1;" value="Kiểm tra điều kiện dữ liệu" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-17" edge="1" parent="TWTG1duaGuvcpLXdfRBY-3" source="TWTG1duaGuvcpLXdfRBY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TWTG1duaGuvcpLXdfRBY-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-22" connectable="0" parent="TWTG1duaGuvcpLXdfRBY-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Trùng ngày" vertex="1">
+          <mxGeometry relative="1" x="-0.27" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-18" edge="1" parent="TWTG1duaGuvcpLXdfRBY-3" source="TWTG1duaGuvcpLXdfRBY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TWTG1duaGuvcpLXdfRBY-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-23" connectable="0" parent="TWTG1duaGuvcpLXdfRBY-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Không trùng" vertex="1">
+          <mxGeometry relative="1" x="-0.24" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-8" parent="TWTG1duaGuvcpLXdfRBY-3" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Kiểm tra ngày trùng?" vertex="1">
+          <mxGeometry height="80" width="80" x="40" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-9" parent="TWTG1duaGuvcpLXdfRBY-3" style="rounded=1;whiteSpace=wrap;html=1;" value="Tư chối đặt phòng" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-19" edge="1" parent="TWTG1duaGuvcpLXdfRBY-3" source="TWTG1duaGuvcpLXdfRBY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TWTG1duaGuvcpLXdfRBY-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-11" parent="TWTG1duaGuvcpLXdfRBY-3" style="rounded=1;whiteSpace=wrap;html=1;" value="Tạo phiếu đặt phòng" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-12" parent="TWTG1duaGuvcpLXdfRBY-3" style="rounded=1;whiteSpace=wrap;html=1;" value="Trả về thông tin phiếu đặt phòng" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-15" edge="1" parent="TWTG1duaGuvcpLXdfRBY-1" source="TWTG1duaGuvcpLXdfRBY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TWTG1duaGuvcpLXdfRBY-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-20" edge="1" parent="TWTG1duaGuvcpLXdfRBY-1" source="TWTG1duaGuvcpLXdfRBY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TWTG1duaGuvcpLXdfRBY-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWTG1duaGuvcpLXdfRBY-21" edge="1" parent="TWTG1duaGuvcpLXdfRBY-1" source="TWTG1duaGuvcpLXdfRBY-12" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="TWTG1duaGuvcpLXdfRBY-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="440" />
+            </Array>
+            <mxPoint x="320" y="270" as="sourcePoint" />
+            <mxPoint x="370" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
